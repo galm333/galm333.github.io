@@ -1,0 +1,147 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--set title of the page-->
+    <title>Hot Beans Web</title>
+    <!--link css file with the html file-->
+    <link rel="stylesheet" href="CSS/index/style.css">
+    <link rel="stylesheet" href="CSS/service/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <!--create a navigation bar-->
+    <nav>
+        <div id="left">
+            <img src="Image&assets/logo.png" id="logo" alt="">
+            <span id="company-name">Hot Beans Web</span>
+        </div>
+
+        <div id="right">
+            <a href="index.html#home-page">Home</a>
+            <a href="index.html#service-page">Service</a>
+            <a href="index.html#about-us-page">About Us</a>
+            <a href="index.html#our-team">Our Team</a>
+            <a href="index.html#careers-page">Careers</a>
+            <a href="index.html#our-course">Our Courses</a>
+        </div>
+        <div id="right-mobile">
+            <i style="float: right;font-size:20px;color:white;margin:10px 20px;" onclick="hide_mobile_nav()">x</i>
+                <ul>
+                    <li onclick="hide_mobile_nav()"><a href="index.html#home-page">Home</a></li>
+                    <li onclick="hide_mobile_nav()"><a href="index.html#service-page">Service</a></li>
+                    <li onclick="hide_mobile_nav()"><a href="index.html#about-us-page">About Us</a></li>
+                    <li onclick="hide_mobile_nav()"><a href="index.html#our-team">Our Team</a></li>
+                    <li onclick="hide_mobile_nav()"><a href="index.html#careers-page">Careers</a></li>
+                    <li onclick="hide_mobile_nav()"><a href="index.html#our-course">Our Courses</a></li>
+                </ul>
+        </div>
+        <i class="material-icons" id="mobile-icon" onclick="show_mobile_nav()">menu</i>
+    </nav>
+
+    <!--I've divide the page into 3 section(web development, IT consulting, Design Solution)-->
+    <!--Each section is split into 2 parts. One part for the image and one part for the description of the service-->
+    <div id="content">
+        <h1 id="title">Our Services<br>
+            <span id="sub-title">Experience exceptional service customized to your needs</span>
+        </h1>
+
+        <section id="first">
+            <div id="left">
+                <h1 id="title">Web development</h1>
+                <div style="clear:both"></div>
+                <p>It involves creating and maintaining websites. We use technical and creative skills with variety of programming languages to ensure the website's functionality, security, and performance.</p>
+                <div style="clear:both"></div>
+                <div><button>PHP Development</button> <div style="clear:both"></div></div>
+                <div><button>Python Development</button> <div style="clear:both"></div></div>
+                <div><button>.NET Development</button> <div style="clear:both"></div></div>
+                <div><button>Full Stack Development</button> <div style="clear:both"></div></div>
+            </div>
+        </section>
+        <section id="second">
+            <div id="right">
+                <h1 id="title">IT Consulting</h1>
+                <div style="clear:both"></div>
+                <p>We provides expert advice and support to businesses on how to use technology effectively. We provide services technology solutions, security, compliance, and digital transformation.</p>
+                <div style="clear:both"></div>
+                <div><button>IT Strategy Consulting</button> <div style="clear:both"></div></div>
+                <div><button>Cybersecurity Consulting</button> <div style="clear:both"></div></div>
+                <div><button>IT Project Management:</button> <div style="clear:both"></div></div>
+            </div>
+        </section>
+        <section id="third">
+            <div id="left">
+                <h1 id="title">Design Solution</h1>
+                <div style="clear:both"></div>
+                <p>We create effective visual and aesthetic logos, graphics and user interface for businesses and organizations, in order to improve their branding, marketing, and communication.</p>
+                <div style="clear:both"></div>
+                <div><button>Graphic Design</button> <div style="clear:both"></div></div>
+                <div><button>Web Design</button> <div style="clear:both"></div></div>
+                <div><button>Print Design</button> <div style="clear:both"></div></div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+</div>
+
+<!--This is the footer of the website-->
+<div class="container" id="footer">
+  <div id="margin-left"></div>
+
+  <div style="width: auto;"  id="item1">
+      <h1>Contact us</h1>
+  </div>
+  <div id="item2">
+  </div>
+  <div id="item3">
+      <h1>Subscribe us</h1>
+  </div>
+
+  <div id="margin-left" style="grid-row:2/4"></div>
+
+  <div id="item4">
+      <img src="Image&assets/Footer/email_icon.jpg" id="icon" alt="icon" /> 
+      <label style="font-weight:bold;font-size:20px;" for="email">help@hotbeansweb.com</label> 
+      <br>
+      <br>
+
+      <img src="Image&assets/Footer/phone_icon.jpg" id="icon" alt="phone" /> 
+      <label style="font-weight:bold;font-size:20px;" for="phone">+44 324 5679 2557</label> 
+  </div>
+
+  <div id="item5">
+    
+  </div>
+
+  <div>
+      <a href="https://www.facebook.com/Meta/" target=”_blank”><img src="Image&assets/Footer/facebook_icon.png" id="icon" alt="facebook" style="margin-left: 10px;"></a>
+      <a href="https://www.instagram.com/instagram/" target=”_blank”><img src="Image&assets/Footer/instagram_icon.png" id="icon" alt="instagram" style="margin-left: 10px;"></a>
+      <a href="https://telegram.org/" target=”_blank”><img src="Image&assets/Footer/telegram_icon.png" id="icon" alt="telegram" style="margin-left: 10px;"></a>
+      <a href="https://www.youtube.com/" target=”_blank”><img src="Image&assets/Footer/youtube_icon.png" id="icon" alt="Youtube" style="margin-left: 10px;"></a>
+      <br><br>
+      <a href="https://www.linkedin.com/in/zhongyi-yan/" target=”_blank”><img src="Image&assets/Footer/linkedin_icon.png" id="icon" alt="Linkedin" style="margin-left: 10px;"></a>
+      <a href="https://twitter.com/twitter" target=”_blank”><img src="Image&assets/Footer/twitter_icon.png" id="icon" alt="Twitter" style="margin-left: 10px;"></a>
+  </div>
+
+  <div style="color:#1d1d1d;height: 18px;"></div>
+  <div style="color:#1d1d1d;"></div>
+  <div style="color:#1d1d1d;"></div>
+</div>
+<script>
+    //mobile friendly
+    function hide_mobile_nav(){
+        document.querySelector('nav #right-mobile').className = "hide";
+    }
+
+    function show_mobile_nav(){
+    document.querySelector('nav #right-mobile').className = "show";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+/*styling the content*/
+#content {
+    padding-top:100px;
+    min-height: calc(100% - 200px);
+    width: calc(100% - 40px);
+    background-color: #fff;
+    padding-left: 20px;
+}
+
+#title{
+    position: relative;
+    margin:0;
+    padding-top:10px;
+    width: 100%;
+    font-size: min(5vw,60px);
+    text-align: center;
+    margin-bottom: 30px;
+    color:#3c4353;
+}
+
+#content #sub-title{
+    font-size: min(2vw,24px);
+    text-align: center;
+    font-weight: 100;
+    color:#3c4353;
+}
+
+/*styling the form*/
+form{
+    position:relative;
+    width:min(1250px, 100%);
+    margin:0 auto;
+    color:#41444b;
+    font-size: min(2vw,24px);
+    margin-bottom: 10px;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+}
+
+form label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.text-muted {
+    color: #6c757d!important;
+}
+.form-text {
+    display: block;
+    margin-top: 0.25rem;
+}
+.small {
+    font-size: 60%;
+    font-weight: 400;
+}
+
+#md-6-container{
+    font-size:0
+}
+
+/*set the input width to 50% (so that we have 2 input in the same line)*/
+.col-md-6 {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    font-size: min(2vw,24px)!important;
+}
+
+.col-md-6.left {
+    padding-right:10px;
+    max-width: calc(50% - 10px);
+}
+
+.col-md-6.right {
+    padding-left:10px;
+    max-width: calc(50% - 10px);
+}
+
+/* styling the select tag */
+.custom-select {
+    display: inline-block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
+    background-size: 8px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* styling the button */
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    margin: auto;
+    display: block;
+    padding: 0.375rem 15%;
+    font-size: min(2vw,24px);
+}
+
+.btn-primary:hover{
+    background-color: #0069d9;
+    border-color: #0069d9;
+}
+
+.btn {
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
